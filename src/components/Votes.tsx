@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './Votes.css'
 
 const Votes = () => {
-// const initialVotes = {Chocolate: 0, Vanilla: 0, Strawberry: 0};
 
 const [votes, setVotes] = useState({Chocolate: 0, Vanilla: 0, Strawberry: 0});
 
@@ -18,9 +17,9 @@ const [votes, setVotes] = useState({Chocolate: 0, Vanilla: 0, Strawberry: 0});
         <button>Vanilla</button>
         <button>Strawberry</button>
     {votes === 0 &&  <p>No votes yet.</p>}
-    <div></div>
-    <div></div>
-    <div></div>
+    <div className='graph chocolate'></div>
+    <div className='graph vanilla'></div>
+    <div className='graph strawberry'></div>
     </section>
   )
 
