@@ -1,1 +1,22 @@
 
+
+
+h1, h2 {
+  font-family: 'Caveat', sans-serif;
+}
+
+button {
+  background-color: #0e3c7e ;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #1e60a9;
+}
+
+button:disabled {
+  background-color: gray;
+  /* cursor: not-allowed; */
+}
